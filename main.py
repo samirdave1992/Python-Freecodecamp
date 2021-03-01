@@ -76,6 +76,7 @@ print(max(2,2.5))  #print the maximum value of numbers
 print(min(2,2.5,1))   #Print the minimun value of numbers
 
 print(round(3.5))  #Rounding off on the numbers
+print(round(7.9899))
 
 #Import other math functions that are not already existing
 from math import *
