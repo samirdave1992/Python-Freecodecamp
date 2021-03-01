@@ -61,6 +61,7 @@ print(10 % 4)  #This modulus operator can get us the remainder
 my_num=5
 print(my_num+3)
 print(my_num+78)
+print(my_num+25)
 
 #To convert it into string- We need to convert it into string to merge it with the string
 print(str(my_num+3) + " is an even number")
