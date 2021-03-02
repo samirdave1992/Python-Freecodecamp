@@ -85,3 +85,19 @@ print(floor(3.5))  #Get the lowest value
 print(ceil(3.5))  #Get the highest value
 print(sqrt(81))  #Get the square root
 
+
+
+#Getting input from the user
+#input tells Python to get the input from the user-Custom information
+name=input("Enter your name: ")
+age=input("Enter your age: ")
+
+print("Hello " + name +"!. You are " + age + " years old")
+
+#Building a calculator
+num1= input("Enter a number:")
+num2= input("Enter another number:")
+
+result=float(num1) + float(num2)
+
+print(result)
