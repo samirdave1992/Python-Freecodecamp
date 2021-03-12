@@ -261,11 +261,52 @@ for rows in number_grid:
 def translate(phrase):
     translation=""
     for letter in phrase:
-        if letter in "AEIOUaeiou":
-            translation=translation+ "g"
+        if letter.lower() in "aeiou":
+            if letter.isupper():
+                translation=translation + "G"
+            else:
+                translation=translation+ "g"
+
         else:
             translation=translation+letter
     return translation
 
 print(translate(input("Enter a phrase:")))
 
+
+#TRY EXCEPT
+try:
+    number=int(input("Enter a number: "))
+    print(number)
+except:
+    print("Invalid input")
+
+
+
+ #If we want to specify the error type
+try:
+    number = int(input("Enter a number: "))
+    print(number)
+except ZeroDivisionError:
+    print("Div. by zero")
+except ValueError:
+    print("invalid input")
+
+
+
+#Reading from external file
+file=open("/Users/Samir/Desktop/Dave,Samir.pdf","r")
+
+file.close()
+# r read
+# w write
+#a append
+
+#complete read and write modules
+
+
+
+#modules in pip
+# save the file by any desired name and include the python functions and other details
+import useful_tools
+import useful_tools
