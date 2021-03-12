@@ -159,6 +159,10 @@ elif op=="*":
 else:
     print("Invalid operator")
 
+
+
+
+
 #DICTIONARIES
 month_conversions={
     "Jan": "January",
@@ -225,6 +229,37 @@ for ranges in range(len(friends)):
 
 for num in range(3,10):
     print(num)
+
+
+#More loops in practice
+number=[1,2,3,4,5]
+fruits=['apple','grapefruit','pears']
+
+for anything in number:
+    print(f"this is count {anything}")
+
+for fruit in fruits:
+    print(f"{fruit} is my favorite")
+
+for ranges in range(len(fruits)):
+    print (ranges)
+
+change=[1,'penny',2,'dimes',3,'Quarters']
+
+for anything_else in change:
+    print(f'I have {anything_else}')
+
+
+#Filling out an empty string
+elements=[]
+
+for i in range(0, 6):
+    print(f"Adding {i} to the list")
+#Appending the numbers to the list
+elements.append(i)
+
+for i in elements:
+    print(f"{i} was the element")
 
 
 
@@ -310,3 +345,8 @@ file.close()
 # save the file by any desired name and include the python functions and other details
 import useful_tools
 import useful_tools
+
+
+
+
+
