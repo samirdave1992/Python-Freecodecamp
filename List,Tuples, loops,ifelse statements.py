@@ -262,6 +262,23 @@ for i in elements:
     print(f"{i} was the element")
 
 
+#While loop- Will keep executing until the boolean expression is true
+i=0
+numbers=[]
+
+while i<6:
+    print(f"At the top i is {i}")
+    numbers.append(i)
+
+    i=i+1
+    print("numbers now: ",numbers)
+
+
+
+
+
+
+
 
 #Exponent function
 print(2**3)
